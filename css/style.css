@@ -1,0 +1,119 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+	font-family: 'Sarabun', sans-serif;
+
+}
+
+h1, h2, h3, h4, h5, img, figure, p{
+  margin: 0;
+  padding: 0;
+
+}
+
+header, nav, footer, section, article, div, aside, main {
+  box-sizing: border-box;
+}
+
+figure, img{
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	width: 100%;
+	height: auto;
+}
+
+header{
+	padding: 10px;
+
+}
+
+.logo{
+		width: auto;
+		height: 200px;
+	}
+
+section>h2{
+	padding: 10px;
+	margin-left: 25px;
+}
+.section_1 p{
+	line-height: 1.5em;
+	font-size: 20px;
+	text-indent: 30px;
+	padding: 15px;
+
+}
+.section_2{
+	padding: 10px;
+}
+
+.section_2 figcaption{
+	margin-bottom:  20px;
+}
+
+.article-div{
+	background-color: #f1f0f0;
+	margin-bottom: 10px;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.2), 0 8px 16px rgba(0,0,0,0.3)
+}
+
+figcaption>a{
+ 	font-size: 20px;
+	line-height: 2em;
+	margin-bottom: 20px;
+	padding-left: 10%;
+}
+
+figcaption>a:hover{
+ 	cursor: pointer;
+}
+
+@media screen and (min-width:768px){
+
+	.logo-div{
+		width: 20%;
+		display: inline-block;
+	}
+	.header-text{
+		display: inline-block;
+		vertical-align: top;
+		text-align: right;
+		width: 79%;
+		font-size: 20px;
+	}
+
+	.col-3{
+		width: 33.3333%;
+		display: inline-block;
+		margin: auto;
+		float: left;
+	}
+	.article-div{
+	width: 95%;
+	}
+
+	.article-div img{
+		width: 100%;
+		height: 200px;
+	}
+
+	#fig-main{
+		width: 100%;
+		height: 500px;
+	}
+	a{
+		padding-left: 5%;
+	}
+
+	@media screen and (min-width: 1200px){
+
+		body{
+			width: 900px;
+			margin:auto;
+		}
+	}
+}
